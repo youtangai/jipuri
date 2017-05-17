@@ -5,7 +5,7 @@
 module:testrunner
 
 GET     /                                       App.Index
-GET     /migrage_db                             App.MigrateDB
+GET     /migrate_db                             App.MigrateDB
 
 # Ignore favicon requests
 GET     /favicon.ico                            404

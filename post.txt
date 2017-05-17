@@ -1,0 +1,4 @@
+
+
+//infoのポスト
+curl -w '\n'  'http://localhost:9000/InfoController/create' -d 'content=hoge&title=hoge&departmentName=hoge&isOfficerOnly=true'
